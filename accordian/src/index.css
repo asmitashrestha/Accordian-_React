@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+   /* background-color: aliceblue; */
+}
+.btn{
+  margin-left: 387px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(24, 22, 22);
+  background-color: rgb(56, 56, 206);
+  padding: 10px 72px;
+  border-radius: 7px;
+}
+
+.btn:hover{
+  background-color: wheat;
+  color: blue;
+}
+
+.btn-color{
+  background-color: rgb(27, 27, 246);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.btn-color:hover{
+  background-color: aquamarine;
+  color: rgb(63, 61, 61);
+}
