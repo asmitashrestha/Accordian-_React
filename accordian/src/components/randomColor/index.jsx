@@ -35,7 +35,7 @@ export default function RandomColor() {
         <button onClick={() => setColorType('hex')} className="btn-color py-3 px-4 mr-4 rounded">Create HEX Color</button>
         <button onClick={() => setColorType('rgb')} className="btn-color py-3 px-4 mr-4 rounded">Create RGB Color</button>
         <button onClick={colorType === 'hex'
-        ? generateHexColor 
+        ? generateHexColor
         : generateRgbColor
       } 
         className="btn-color py-3 px-4 mr-4 rounded">Generate random color</button>

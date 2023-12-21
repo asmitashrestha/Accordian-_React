@@ -38,3 +38,12 @@
   background-color: aquamarine;
   color: rgb(63, 61, 61);
 }
+
+/* css for star rating */
+
+.active{
+color: rgb(209, 209, 22);
+}
+.inactive{
+ color: rgb(10, 10, 10);
+}
