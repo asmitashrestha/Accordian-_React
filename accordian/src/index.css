@@ -8,6 +8,8 @@
   font-family: sans-serif;
    /* background-color: aliceblue; */
 }
+
+/* css for accordians */
 .btn{
   margin-left: 387px;
   font-size: 22px;
@@ -22,6 +24,8 @@
   background-color: wheat;
   color: blue;
 }
+
+/* css for random color */
 
 .btn-color{
   background-color: rgb(27, 27, 246);

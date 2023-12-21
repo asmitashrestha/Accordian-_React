@@ -12,14 +12,12 @@ export default function Accordian(){
    setSelected(currentId === selected ? null : currentId)
   }
  
-  const handleMultiSelection = (currentId) =>{
-    console.log('you click multi selection');
-    
+  const handleMultiSelection = (currentId) =>{    
     let copyMultipleId = [...multipleId];
     const findIndexofCurrentId = copyMultipleId.indexOf(currentId)
     if(findIndexofCurrentId === -1) copyMultipleId.push(currentId)
     else copyMultipleId.splice(findIndexofCurrentId,1)
-  setMultipleId(copyMultipleId)
+    setMultipleId(copyMultipleId)
   }
 
   return <>
