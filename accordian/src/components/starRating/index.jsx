@@ -7,6 +7,7 @@ export default function StarRating({noOfStars}){
 
   const handleMouseMove =(getCurrentIndex) =>{
     setHover(getCurrentIndex)
+    console.log(getCurrentIndex);
   }
  
   const handleClick = (getCurrentIndex)=>{

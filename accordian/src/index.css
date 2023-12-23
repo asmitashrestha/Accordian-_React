@@ -47,3 +47,156 @@ color: rgb(209, 209, 22);
 .inactive{
  color: rgb(10, 10, 10);
 }
+
+/* css for image slider */
+
+.container{
+  width: 370px;
+  height: 250px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  border-radius: 9px;
+  box-sizing: 0px 7px gray;
+}
+
+.left-arrow{
+  position: relative;
+  top: 130px;
+  right: 6px;
+  font-size: 26px;
+  color: rgb(194, 127, 127);
+}
+.right-arrow{
+  position: relative;
+  left: 355px;
+  font-size: 26px;
+  bottom: 140px;
+  color: rgb(194, 127, 127);
+}
+
+.circle{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* css for load more buttons */
+
+.product-container h1{
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-bottom: 40px;
+
+}
+
+.store-product{
+  height: 290px;
+  width: 400px;
+  margin-top: 20px; 
+  margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 9px;
+    box-shadow: 3px 5px gray;
+}
+
+.store-product img{
+  width: 398px;
+  height: 200px;
+  padding: 10px;
+}
+
+.store-product p{
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-load{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.load-btn{
+  background-color: rgb(146, 233, 204);
+  padding: 10px 15px;
+  font-size: 20px;
+  color: rgb(12, 11, 11);
+  border-radius: 15px;
+}
+
+
+/* css for qr code generator */
+
+.inp-box{
+  border: none;
+  border: 1px solid rgb(114, 111, 111);
+  border-radius: 7px;
+  padding: 8px 40px;
+  margin-right: 2px;
+}
+
+.btn-generate{
+  background-color: rgb(190, 190, 218);
+  padding: 10px;
+  border-radius: 4px;
+  color: rgb(7, 7, 7);
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.qr-code{
+  position: relative;
+  top: 40px;
+  left: 540px;
+}
+
+/* css for theme changer */
+:root{
+  --background : #ffffff;
+  --text-primary:#000000;
+  --button-bg: #000;
+  --button-text:#fff;
+}
+
+[data-theme ='dark'] {
+  --background : #030303;
+  --text-primary:#f5eeee;
+  --button-bg: #f3eeee;
+  --button-text:#050505;
+}
+
+.light-dark-theme{
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.btn-theme{
+  background-color: var(--button-bg);
+  border: 1px solid var(--button-bg);
+  color: var(--button-text);
+  width: 100px;
+  position: relative;
+  left: 600px;
+  border-radius: 9px;
+  padding: 5px 10px;
+}
