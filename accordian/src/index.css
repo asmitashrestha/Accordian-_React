@@ -200,3 +200,27 @@ color: rgb(209, 209, 22);
   border-radius: 9px;
   padding: 5px 10px;
 }
+
+
+/* css for scroll-indicator */
+
+.top-container{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.scroll-progress{
+  width: 100%;
+  height: 10px;
+  background-color: aqua;
+}
+
+.progress-bar{
+  height: 10px;
+  background-color: blue;
+  width: 0%;
+}

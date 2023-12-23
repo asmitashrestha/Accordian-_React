@@ -3,6 +3,7 @@ import ImageSlider from './components/imageSlider'
 import LoadMoreBtn from './components/loadMorebtn/LoadMoreBtn'
 import QrGenerator from './components/qrcodeGenerator/QrGenerator'
 import RandomColor from './components/randomColor'
+import ScrollIndicator from './components/scroll-Indicator/ScrollIndicator'
 import StarRating from './components/starRating'
 import ThemeChanger from './components/themeChange/ThemeChanger'
 import TreeView from './components/treeView'
@@ -29,7 +30,10 @@ const App = () => {
       {/* <TreeView menus={menus}/> */}
       {/* <QrGenerator/> */}
 
-      <ThemeChanger/>
+      {/* <ThemeChanger/> */}
+
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+
     </div>
   )
 }
