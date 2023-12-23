@@ -224,3 +224,10 @@ color: rgb(209, 209, 22);
   background-color: blue;
   width: 0%;
 }
+
+/* css for custom modal popup */
+
+.open-modal{
+  justify-content: center;
+  text-align: center;
+}

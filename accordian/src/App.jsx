@@ -1,4 +1,5 @@
 import Accordian from './components/accordian'
+import ModalTest from './components/custom-modal-popup/ModalTest'
 import ImageSlider from './components/imageSlider'
 import LoadMoreBtn from './components/loadMorebtn/LoadMoreBtn'
 import QrGenerator from './components/qrcodeGenerator/QrGenerator'
@@ -32,8 +33,9 @@ const App = () => {
 
       {/* <ThemeChanger/> */}
 
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
+      <ModalTest/>
     </div>
   )
 }
