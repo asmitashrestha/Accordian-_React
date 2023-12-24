@@ -1,3 +1,4 @@
+import GithubProfileFinder from './Github_Profile_Finder/GithubProfileFinder'
 import Accordian from './components/accordian'
 import ModalTest from './components/custom-modal-popup/ModalTest'
 import ImageSlider from './components/imageSlider'
@@ -35,7 +36,9 @@ const App = () => {
 
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      <GithubProfileFinder/>
     </div>
   )
 }
