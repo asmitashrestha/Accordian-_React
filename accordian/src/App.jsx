@@ -1,4 +1,4 @@
-import GithubProfileFinder from './Github_Profile_Finder/GithubProfileFinder'
+import GithubProfileFinder from './components/Github_Profile_Finder/GithubProfileFinder'
 import Accordian from './components/accordian'
 import ModalTest from './components/custom-modal-popup/ModalTest'
 import ImageSlider from './components/imageSlider'
@@ -6,6 +6,7 @@ import LoadMoreBtn from './components/loadMorebtn/LoadMoreBtn'
 import QrGenerator from './components/qrcodeGenerator/QrGenerator'
 import RandomColor from './components/randomColor'
 import ScrollIndicator from './components/scroll-Indicator/ScrollIndicator'
+import SearchAutoComplete from './components/searchAutocomplete/SearchAutoComplete'
 import StarRating from './components/starRating'
 import ThemeChanger from './components/themeChange/ThemeChanger'
 import TreeView from './components/treeView'
@@ -37,8 +38,10 @@ const App = () => {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
       {/* <ModalTest/> */}
+{/* 
+      <GithubProfileFinder/> */}
 
-      <GithubProfileFinder/>
+      <SearchAutoComplete/>
     </div>
   )
 }

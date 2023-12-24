@@ -1,0 +1,8 @@
+.inp-autocomplete{
+  margin-top: 30px;
+  outline: none;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  color: rgb(15, 10, 10);
+  border-radius: 9px;
+}

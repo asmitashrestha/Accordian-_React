@@ -21,9 +21,9 @@ const GithubProfileFinder = () => {
     console.log(data);
   }
 
-  // const handleSubmit = () =>{
-  //   fetchGithubUserData()
-  // }
+  const handleSubmit = () =>{
+    fetchGithubUserData()
+  }
 
   useEffect(()=>{
     fetchGithubUserData()
@@ -33,10 +33,10 @@ const GithubProfileFinder = () => {
     <div>Loading data .......</div>
   }
   return (
-    <div className='github-container'>
-      <div className="github-search-button">
-        <input type="text" name='username' placeholder='Search Github Username'  value={userName} onChange={(e)=> setUserName(e.target.value)}/>
-        <button onClick={fetchGithubUserData}><FaSearch/></button>
+    <div className='github-container justify-center text-center'>
+      <div className="github-search-button p-7 ">
+        <input className='input-user' type="text" name='username' placeholder='Search Github Username'  value={userName} onChange={(e)=> setUserName(e.target.value)}/>
+        <button onClick={handleSubmit} className='search-icon'><FaSearch/></button>
 
         {
           userData!== null ? <GithubUserInfo user={userData}/> : null
