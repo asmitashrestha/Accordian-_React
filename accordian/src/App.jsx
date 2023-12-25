@@ -18,6 +18,7 @@ import Check from './components/test/Cheque'
 import ThemeChanger from './components/themeChange/ThemeChanger'
 import TreeView from './components/treeView'
 import menus from './components/treeView/data'
+import UseWindowResizeTest from './components/useResponsiveHook/UseWindowResizeTest'
 
 const App = () => {
   // const slides = [
@@ -57,7 +58,9 @@ const App = () => {
 
       {/* <UseFetchHookTest/> */}
 
-      <OnclickOutsideHookTest/>
+      {/* <OnclickOutsideHookTest/> */}
+
+      <UseWindowResizeTest/>
       
     </div>
   )
