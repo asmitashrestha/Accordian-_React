@@ -10,6 +10,8 @@ const UseFetchHookTest = () => {
   console.log(error, data, pending);
 
   return (
+
+    // Usefetch hook concept
     <div>
       <h1>usefetch hook test</h1>
       {

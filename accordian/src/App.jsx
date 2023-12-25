@@ -8,6 +8,7 @@ import FeatureFlagGlobalState from './components/figureflagImplemenation/context
 import FigureFlagImplemenation from './components/figureflagImplemenation/context/FigureFlagImplemenation'
 import ImageSlider from './components/imageSlider'
 import LoadMoreBtn from './components/loadMorebtn/LoadMoreBtn'
+import OnclickOutsideHookTest from './components/onclickOutside/OnclickOutsideHookTest'
 import QrGenerator from './components/qrcodeGenerator/QrGenerator'
 import RandomColor from './components/randomColor'
 import ScrollIndicator from './components/scroll-Indicator/ScrollIndicator'
@@ -54,7 +55,9 @@ const App = () => {
         <FeatureFlag/>
       </FeatureFlagGlobalState> */}
 
-      <UseFetchHookTest/>
+      {/* <UseFetchHookTest/> */}
+
+      <OnclickOutsideHookTest/>
       
     </div>
   )
