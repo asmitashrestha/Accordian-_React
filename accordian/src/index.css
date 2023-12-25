@@ -231,3 +231,12 @@ color: rgb(209, 209, 22);
   justify-content: center;
   text-align: center;
 }
+
+/* css for scroll top to bottom */
+.scroll-btn button{
+  background-color: rgb(56, 55, 55);
+  padding: 10px 12px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}

@@ -12,6 +12,7 @@ import OnclickOutsideHookTest from './components/onclickOutside/OnclickOutsideHo
 import QrGenerator from './components/qrcodeGenerator/QrGenerator'
 import RandomColor from './components/randomColor'
 import ScrollIndicator from './components/scroll-Indicator/ScrollIndicator'
+import ScrollTopToBottom from './components/scrolltoptobottom/ScrollTopToBottom'
 import SearchAutoComplete from './components/searchAutocomplete/SearchAutoComplete'
 import StarRating from './components/starRating'
 import Check from './components/test/Cheque'
@@ -60,7 +61,9 @@ const App = () => {
 
       {/* <OnclickOutsideHookTest/> */}
 
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
+
+      <ScrollTopToBottom/>
       
     </div>
   )
